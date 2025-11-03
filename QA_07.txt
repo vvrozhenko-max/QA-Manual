@@ -1,3 +1,4 @@
 Це файл групи QA_07
 Друге речення для практики
 Hello world
+Hello world
