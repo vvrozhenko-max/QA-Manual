@@ -1,0 +1,94 @@
+/* === Загальні стилі для всіх сторінок === */
+body.page {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* === Заголовки === */
+header.header h1 {
+  text-align: center;
+  color: #0056b3;
+}
+
+header.header p {
+  text-align: center;
+  color: #666;
+}
+
+/* === Контактна секція === */
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-list li {
+  margin: 8px 0;
+}
+
+.contact-list a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* === Галерея === */
+.gallery {
+  text-align: center;
+}
+
+.gallery-img {
+  width: 200px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+}
+
+/* === Навігація === */
+.navigation {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: #0056b3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+/* === Футер === */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+/* === Карточки === */
+.card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  margin-top: 20px;
+}

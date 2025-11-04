@@ -3,18 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Про мене</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <h1>Привіт! Мене звати Віктор</h1>
-  <p>Я початківець у сфері QA і цікавлюсь тестуванням програмного забезпечення.</p>
+<body class="page">
+  <div class="container">
 
-  <h2>Про мене</h2>
-  <p>Люблю технології, подорожі та гарну каву ☕️</p>
+    <header class="header">
+      <h1 id="main-title">Привіт! Мене звати Віктор</h1>
+      <p class="intro">Я початківець у сфері QA і цікавлюсь тестуванням програмного забезпечення.</p>
+    </header>
 
-  <h3>Навігація:</h3>
-  <ul>
-    <li><a href="pages/contact.html">Контакти</a></li>
-    <li><a href="pages/gallery.html">Галерея</a></li>
-  </ul>
+    <section class="about card" id="about">
+      <h2>Про мене</h2>
+      <p>Люблю технології, подорожі та гарну каву ☕️</p>
+    </section>
+
+    <nav class="navigation card" id="nav">
+      <h3>Навігація:</h3>
+      <ul class="nav-list">
+        <li><a href="pages/contact.html" class="nav-link">Контакти</a></li>
+        <li><a href="pages/gallery.html" class="nav-link">Галерея</a></li>
+      </ul>
+    </nav>
+
+    <footer class="footer">
+      <p>© 2025 Віктор. Гілка: <strong>vvrozhenko-max.css-practice</strong></p>
+    </footer>
+
+  </div>
 </body>
 </html>
